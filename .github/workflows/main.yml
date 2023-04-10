@@ -1,3 +1,4 @@
+name: workflow-caller
 on: 
   push:
     branches: none
