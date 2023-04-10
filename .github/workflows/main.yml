@@ -1,0 +1,15 @@
+on: 
+  push:
+    branches: none
+  pull_request: 
+    branches: none
+  workflow_dispatch:
+  
+jobs: 
+  call-workflow-A:
+    uses: Azhar1Ali/workflow-sharing/blob/main/.github/workflows/main.yml@main
+    with:
+      username: Azhar1Ali
+    secrets:
+      token: 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
+      
