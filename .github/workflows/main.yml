@@ -7,7 +7,7 @@ on:
   
 jobs: 
   call-workflow-A:
-    uses: Azhar1Ali/workflow-sharing/blob/main/.github/workflows/main.yml@main
+    uses: Azhar1Ali/workflow-sharing/main/.github/workflows/main.yml@main
     with:
       username: Azhar1Ali
     secrets:
